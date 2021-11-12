@@ -1,1 +1,1 @@
-My Dotfiles for local pc and remote servers
+My Dotfiles for local pc and remote servers with a focus on security and hardening.
