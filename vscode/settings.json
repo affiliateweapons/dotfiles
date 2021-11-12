@@ -1,0 +1,565 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {"settings": {"foreground":"#965027"}, "scope": ""},
+      {"settings": {"foreground":"#8f5e15"}, "scope": ""},
+      {"settings": {"foreground":"#485e30"}, "scope": ""},
+      {"settings": {"foreground":"#33635c"}, "scope": ""},
+      {"settings": {"foreground":"#166775"}, "scope": ""},
+      {"settings": {"foreground":"#0f4b6e"}, "scope": ""},
+      {"settings": {"foreground":"#34548a"}, "scope": ""},
+      {"settings": {"foreground":"#5a4a78"}, "scope": ""},
+      {"settings": {"foreground":"#343b58"}, "scope": ""},
+      {"settings": {"foreground":"#565a6e"}, "scope": ""},
+      {"settings": {"foreground":"#634f30"}, "scope": ""},
+      {"settings": {"foreground":"#0f0f14"}, "scope": ""},
+      {"settings": {"foreground":"#9699a3"}, "scope": ""},
+      {"settings": {"foreground":"#d5d6db"}, "scope": ""},      
+    ],
+  },
+  "editor.semanticHighlighting.enabled": true,
+  "workbench.editor.openSideBySideDirection":"down",
+  "workbench.colorCustomizations": {
+    "[Tokyo Night Storm]": {
+      "editorGroup.border": "#1b1e2e",
+      "editorGroup.dropBackground": "#292e42",
+      "editorGroupHeader.border": "#1b1e2e",
+      "editorGroupHeader.noTabsBackground": "#1b1e2e",      
+      "editorGroupHeader.tabsBorder": "#1f2335",
+      "editorGroupHeader.tabsBackground": "#1b1e2e",
+      /*****
+      * tabs
+      *****/      
+      "tab.inactiveBackground": "#1b1e2e",
+      "tab.unfocusedActiveBackground": "#1b1e2e",
+      "tab.unfocusedInactiveBackground": "#1B1E2E",
+      // "tab.lastPinnedBorder": "#03e991",
+      "tab.activeBorder": "#03e991",
+      "tab.activeForeground": "#03e991",
+      "tab.activeBorderTop": "#03e991",
+      "gitDecoration.untrackedResourceForeground": "#449dab",
+
+      // "tab.activeForeground": "#03e991",
+      // "tab.activeBorderTop": "#03e991",
+      "tab.activeBackground": "#24283b",
+      "tab.unfocusedActiveBorder": "#1b1e2e",
+      "tab.unfocusedActiveBorderTop": "#1b1e2e",
+      // "tab.unfocusedActiveBorderTop": "#0000ff",
+      // "tab.unfocusedActiveBackground": "#0f0f14",
+		  // "terminalCursor.background": null,
+		  // "terminalCursor.foreground": null,      
+      // "tab.border": "#343b58",
+      // "tab.unfocusedInactiveBackground": "#1B1E2E",
+      // "tab.border": "#343b58",
+      // "tab.border": "#343b58",
+      // "tab.activeBorder": "#03e991",
+      "breadcrumb.activeSelectionForeground": "#a9b1d6",
+      "breadcrumb.background": "#1f2335",
+      "breadcrumb.focusForeground": "#A26777",
+      "breadcrumb.foreground": "#545c7e",
+      "breadcrumbPicker.background": "#1f2335",
+      "editorCodeLens.foreground": "#7982a9",
+      "window.activeBorder": "#343b58",
+      // "editorGutter.foldingControlForeground": "#03e991",
+      "editor.background": "#24283b",
+      "window.inactiveBorder": "#0000ff",
+      // "editor.selectionHighlightBorder": "#ff0000",
+      // "editor.lineHighlightBackground": "#043c4d9a",
+      "editor.lineHighlightBackground": "#2a2f46",
+      // "editor.lineHighlightBackground": "#043c4d", good one
+      "editorGutter.commentRangeForeground":"#ff0000",
+      // "focusBorder":"#343b58",
+
+      "focusBorder":"#145d69",
+      "editor.selectionForeground": "#ff0000",
+      // "editor.lineHighlightBackground": "#d3d4715d",
+
+		//"minimap.errorHighlight": "#ff1212b3",
+		//"minimap.findMatchHighlight": "#d18616",
+		//"minimap.selectionHighlight": "#264f78",
+		//"minimap.warningHighlight": "#e0af68",
+		"minimapSlider.activeBackground": "#043c4d44",
+		"minimapSlider.background": "#043c4d44",
+		"minimapSlider.hoverBackground": "#043c4d75",
+
+    // "scrollbar.shadow": "#79020233",
+		"scrollbarSlider.activeBackground": "#043c4d",
+		// "scrollbarSlider.background": "#043c4d",
+		"scrollbarSlider.hoverBackground": "#043c4d",
+    }
+  },
+  "workbench.startupEditor": "none",
+  "projectManager.git.baseFolders": [
+    "~/repo"
+  ],
+  "atlascode.jira.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "treeProvider.autorefresh": true,
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/venv/**": true,
+    "**/node_modules/*/**": true,
+    "**/functions_sourcecode/*/**": true
+  },
+  //*log,*.md, zaw*
+  "files.exclude": {
+    "**/*.pyc": {
+      "when": "$(basename).py"
+    },
+    "**/__pycache__": true,
+    "venv": true,
+    "**/*.log": true,
+    "**/zaw*": true,
+    "**/__init__.py": true,
+    "**/.scrapy/**": true,
+    ".vscode": true,
+    "**/functions_sourcecode/**": true
+  },
+  "kite.showWelcomeNotificationOnStartup": false,
+  "settingsSync.ignoredExtensions": [
+    "vscode.typescript-language-features",
+    "ms-python.vscode-pylance",
+    "kiteco.kite"
+  ],
+  "extensions.autoUpdate": true,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "json.schemaDownload.enable": false,
+  "extensions.autoCheckUpdates": false,
+  "update.showReleaseNotes": false,
+  "vscode-neovim.neovimInitVimPaths.linux": " ~/.config/nvim/init.vim",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.rightClickCopyPaste": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.fontLigatures": true,
+  "disabled.editor.fontSize": 12,
+  "terminal.integrated.minimumContrastRatio": 4,
+  "terminal.integrated.automationShell.linux": "/home/superaffiliator/.zshai",
+  "terminal.integrated.automationShell.osx": "",
+  "disabled.terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "remote.SSH.showLoginTerminal": true,
+  "outline.problems.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[propxerties]": {
+
+    "breadcrumbs.showVariables": true,
+    "editor.suggest.showColors": true,
+    "outline.showStrings": true,
+    "editor.showFoldingControls": true,
+    "editor.wordWrap": "on",
+    "editor.wordSeparators":"`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "outline.showMethods": true,
+    "editor.defaultFormatter": "aaron-bond.better-comments",
+    "editor.suggest.showFunctions": true,
+    "breadcrumbs.showArrays": true,
+    "breadcrumbs.showFunctions": true,
+    "outline.showFunctions": true,
+  },
+  "[zsh]": {
+    "editor.wordWrap": "on",
+    "editor.wordSeparators":"`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "outline.showMethods": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.showFunctions": true,
+    "breadcrumbs.showArrays": true,
+    "breadcrumbs.showFunctions": true,
+    "outline.showFunctions": true,
+  },
+  "[shellscript]": {
+
+    "editor.wordSeparators":"`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "outline.showModules": true,
+    "outline.showNamespaces": true,
+    "editor.suggest.showFunctions": true,
+    // "outline.showArrays": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+     "outline.showTypeParameters": true,
+     "outline.showKeys": true,
+     "outline.showStrings": true,
+     "breadcrumbs.showArrays": true,
+     "breadcrumbs.showFunctions": true,
+     "outline.showFunctions": true,
+     "outline.showMethods": true,
+  },
+  "files.associations": {
+    ".json": "jsonc",
+    "*.zsh": "shellscript",
+    ".zsh-ai": "shellscript",
+    ".tmux.conf": "properties"
+  },
+  "shellLauncher.shells.linux": [
+    {
+      "shell": "zsh",
+      "args": [
+        "-l"
+      ],
+      "label": "zsh login shell"
+    },
+    {
+      "shell": "zsh",
+      "args": [
+        "-l -v"
+      ],
+      "label": "zsh login shell verbose"
+    }
+  ],
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "zsh"
+    },
+    "zsh-verbose": {
+      "path": "zsh",
+      "args": [
+        "-v"
+      ]
+    },
+    "bash": {
+      "path": "bash"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  // "explorer.sortOrderLexicographicOptions": "lower",
+  // "tabnine.experimentalAutoImports": true,
+  "http.proxyAuthorization": null,
+  ".userWords": [
+    "Agnoster",
+    "BACKENDS",
+    "COLORTERM",
+    "Cygwin",
+    "zshai::respond",
+    "Gitter",
+    "Konsole",
+    "Lyles",
+    "Powerlevel",
+    "Powerline",
+    "Prezto",
+    "RPROMPT",
+    "SIGWINCH",
+    "SUBMODULE",
+    "Termux",
+    "Tilix",
+    "Zgen",
+    "Zplug",
+    "Zplugin",
+    "acccount",
+    "asciicast",
+    "asdf",
+    "autoload",
+    "bhilburn",
+    "civis",
+    "cnorm",
+    "conda",
+    "direnv",
+    "echoti",
+    "elif",
+    "fpath",
+    "gcloud",
+    "gifs",
+    "gitstatus",
+    "gitstatusd",
+    "goenv",
+    "jenv",
+    "keychain",
+    "keymap",
+    "kubecontext",
+    "kubectl",
+    "kubectx",
+    "kubens",
+    "kubernetes",
+    "laravel",
+    "luaenv",
+    "meslo",
+    "monospace",
+    "nodeenv",
+    "nodenv",
+    "nordvpn",
+    "phpenv",
+    "plenv",
+    "pyenv",
+    "rbenv",
+    "robbyrussell",
+    "romka",
+    "romkatv",
+    "rustc",
+    "screencast",
+    "scrollback",
+    "setopt",
+    "taskwarrior",
+    "timew",
+    "timewarrior",
+    "uncommenting",
+    "unstaged",
+    "untracked",
+    "venv",
+    "virtualenv",
+    "wifi",
+    "wireguard",
+    "zcompile",
+    "zimfw",
+    "zimrc",
+    "zinit",
+    "zmodule",
+    "zprezto",
+    "zpreztorc",
+    "zstyle"
+  ],
+  "settingsSync.ignoredSettings": [],
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.iconTheme": "simple-icons",
+  "editor.suggest.showFunctions": false,
+  "timeline.excludeSources": [
+    "git-history"
+  ],
+  "[json]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "compact",
+  // "bracket-pair-colorizer-2.colors": [
+  //   "LightSlateGrey",
+  //   "Orchid",
+  //   "LightSkyBlue"
+  // ],
+  // "bracket-pair-colorizer-2.rulerPosition": "Right",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "bracket-pair-colorizer-2.scopeLineCSS": [
+
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : Orchid",
+    "opacity: 0.2"
+  ],
+  "bracket-pair-colorizer-2.excludedLanguages": [],
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.editor.enablePreview": true,
+  "workbench.commandPalette.history": 151,
+  "workbench.commandPalette.preserveInput": true,
+  "bashIde.globPattern": "**/*@(.sh|.inc|.bash|.command|.zsh)",
+  "workbench.settings.openDefaultKeybindings": true,
+  "editor.tabSize": 2,
+  "terminal.integrated.commandsToSkipShell": [
+    "-workbench.action.debug.continue",
+    "-editor.action.moveLinesUpAction",
+    "-notebook.cell.moveUp",
+    "-history.showPrevious",
+    "-scm.forceViewPreviousCommit",
+    "-showPrevParameterHint",
+    "-editor.action.selectFromAnchorToCursor",
+    "-editor.action.defineKeybinding",
+    "-focusLastEditorGroup",
+    "-workbench.action.focusLastEditorGroup"
+  ],
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "editor.detectIndentation": false,
+  "editor.tabCompletion": "on",
+
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    // regular comments
+    {
+      "tag": "#",
+      "color": "#bb9af7",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    // disabled
+    {      
+      "tag": "@disabled",
+      "color": "#343b58",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "#transparent",
+      "bold": false,
+      "italic": true
+    },
+    // important notes
+    {
+      "tag": "!",
+      "color": "#ff0000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    // bindkey input key
+    {
+      "tag": ">",
+      "color": "#f7768e",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    // bindkey function
+    {
+      "tag": "<",
+      "color": "#9ece6a",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#transparent",
+      "bold": false,
+      "italic": true
+    },
+    // unfinished/unsolved issue
+    {      
+      "tag": "@?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    // shorthand for function
+    {      
+      "tag": "@f",
+      "color": "white",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#34548a",
+      "bold": false,
+      "italic": true
+    },
+    // plugin
+    {      
+      "tag": "@plugin",
+      "color": "white",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#3498DB",
+      "bold": false,
+      "italic": true
+    },
+    // requires
+    {      
+      "tag": "@require",
+      "color": "#545c7e",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#3498DB",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "@plugin",
+      "color": "white",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#3498DB",
+      "bold": false,
+      "italic": true
+    },
+    // refactor
+    {
+      "tag": "@refactor",
+      "color": "#B267E6",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+
+    // deprecated function
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    // unfinished function/tasks
+    {
+      "tag": "todo",
+      "color": "#ff9e64",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "idea",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+
+    {
+      "tag": "@",
+      "color": "#5a4a78",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#545c7e",
+      "bold": false,
+      "italic": false
+    },
+  ],
+  "terminal.integrated.allowWorkspaceConfiguration": true,
+  "terminal.integrated.env.linux": {
+  "IS_CODIUM": "true"
+  },
+  "terminal.integrated.localEchoStyle": "#ff0000",
+  "terminal.integrated.scrollback": 2000,
+  "terminal.integrated.tabs.focusMode": "singleClick",
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.windowsEnableConpty": false,
+  "terminal.integrated.wordSeparators": " ()[]{}',\"`─#?",
+  "debug.javascript.terminalOptions": {
+
+  },
+  "terminal.integrated.fontFamily": "'MesloLGM Nerd Font'",
+  "explorer.confirmDragAndDrop": false,
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Orchid",
+    "LightSkyBlue"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+}
