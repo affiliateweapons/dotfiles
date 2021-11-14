@@ -329,9 +329,7 @@
   "terminal.integrated.tabs.enabled": true,
   "workbench.iconTheme": "simple-icons",
   "editor.suggest.showFunctions": false,
-  "timeline.excludeSources": [
-    "git-history"
-  ],
+  "timeline.excludeSources": [],
   "[json]": {
     // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

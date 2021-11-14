@@ -3,4 +3,6 @@ My Dotfiles for local pc and remote servers with a focus on security and hardeni
 
 # Available apps
 - zsh
+- gpg
 - nano
+- vscode
